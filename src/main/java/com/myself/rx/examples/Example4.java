@@ -6,8 +6,8 @@ import io.reactivex.Observable;
 
 public class Example4 {
     public static void show() throws InterruptedException {
-        Integer[] integers = {1,2,3,4,5,6,7,8,9,10};
-        Observable<Integer> source = Observable.fromArray(integers);
+        Long[] integers = {1L,2L,3L,4L,5L,6L,7L,8L,9L,10L};
+        Observable<Long> source = Observable.fromArray(integers);
         Broadcaster broadcaster = new Broadcaster(source);
 
         Thread[] observers = {

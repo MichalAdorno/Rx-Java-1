@@ -1,6 +1,5 @@
-package com.myself.rx.examples.example4;
+package com.myself.rx.examples.example5;
 
-import io.reactivex.Observable;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.observables.ConnectableObservable;
@@ -13,15 +12,17 @@ public class ConsumerRunnable implements Runnable {
         public void onSubscribe(Disposable disposable) {
             //nothing
         }
+
         @Override
         public void onNext(Long t) {
-            if(t%nr == 0)
                 System.out.println("[" + nr + "] " + t);
         }
+
         @Override
         public void onError(Throwable throwable) {
             throwable.printStackTrace();
         }
+
         @Override
         public void onComplete() {
             System.out.println("[" + nr + "] completed!");

@@ -5,11 +5,11 @@ import io.reactivex.observables.ConnectableObservable;
 
 public class Broadcaster implements Runnable{
 
-    private ConnectableObservable<Integer> source;
-    public ConnectableObservable<Integer> getSource(){
+    private ConnectableObservable<Long> source;
+    public ConnectableObservable<Long> getSource(){
         return source;
     }
-    public Broadcaster(Observable<Integer> observable){
+    public Broadcaster(Observable<Long> observable){
         source = observable.publish();
         this.source = source;
     }
