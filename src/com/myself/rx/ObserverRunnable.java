@@ -13,6 +13,6 @@ public class ObserverRunnable<T> implements Runnable {
 
     @Override
     public void run() {
-        observable.subscribe(x -> System.out.println("[Thread-"+ nr +"]" + x));
+        observable.subscribe(x -> System.out.println("[Thread-"+ nr +"]" + x + " (" + x.toString().length() + ")"));
     }
 }

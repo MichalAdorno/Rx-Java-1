@@ -6,21 +6,40 @@ import io.reactivex.Observable;
 
 public class Main {
 
-    public static void main(String[] args){
-        Observable<String> myStrings = Observable.just("Alpha", "Beta", "Gamma", "Delta");
-        Thread[] observers = new Thread[3];
-        for(int i=0; i < observers.length; i++)
-            observers[i] = new Thread(new ObserverRunnable<String>(myStrings, i));
-
-        for(Thread observer : observers)
-            observer.start();
-
-        for(Thread observer : observers)
+    public static void main(String[] args) throws InterruptedException {
+        Observable<String> source = Observable.create(x -> {
             try {
-                observer.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                x.onNext("Ada");
+                x.onNext("Basia");
+                x.onNext("Czesława");
+                x.onNext("Dusia");
+                x.onNext("Ela");
+                x.onNext("Feodosja");
+                x.onNext("Gudrun");
+                x.onNext("Henryka");
+                x.onNext("Iga");
+                x.onNext("Jadwiga");
+                x.onNext("Katarzyna");
+                x.onNext("Luba");
+                x.onNext("Łucja");
+                x.onNext("Mirosława");
+                x.onNext("Nadia");
+                x.onComplete();
+            }catch(Exception e){
+                x.onError(e);
             }
+        });
+
+        Thread[] observers = new Thread[7];
+        for(int i = 0; i < observers.length; i++) {
+            final int j = i + 1;
+            Observable<String> filtered = source.filter(x -> x.length() <= j);
+            observers[i] = new Thread(new ObserverRunnable<String>(filtered, j));
+        }
+        for(int i = 0; i < observers.length; i++)
+            observers[i].start();
+        for(int i = 0; i < observers.length; i++)
+            observers[i].join();
 
         System.out.println("Finished!");
     }
