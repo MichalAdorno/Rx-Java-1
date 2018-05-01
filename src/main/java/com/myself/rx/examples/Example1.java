@@ -1,6 +1,6 @@
 package com.myself.rx.examples;
 
-import com.myself.rx.ObserverRunnable;
+import com.myself.rx.examples.example1.ObserverRunnable;
 import io.reactivex.Observable;
 
 public class Example1 {

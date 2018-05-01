@@ -1,4 +1,4 @@
-package com.myself.rx;
+package com.myself.rx.examples.example1;
 
 import io.reactivex.Observable;
 

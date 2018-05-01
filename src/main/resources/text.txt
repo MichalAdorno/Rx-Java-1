@@ -1,0 +1,23 @@
+In this chapter, we'll apply a minimal Spring Security configuration to start addressing our
+first finding—inadvertent privilege escalation due to a lack of   URL protection, and general
+authentication from the security audit discussed in Chapter 1 , Anatomy of an Unsafe
+Application. We will then build on the basic configuration to provide a customized
+experience for our users. This chapter is intended to get you up and running with Spring
+Security and to provide a foundation for any other security-related tasks you will need to
+perform.
+During the
+
+We encourage you to import the chapter02.00-calendar project into your IDE, and
+follow along by obtaining the source code from this chapter, as described in the Getting
+started with JBCP calendar sample code section in the Appendix , Additional Reference Material.
+For each chapter, you will find multiple revisions of the code that represent checkpoints
+within the book. This makes it easy to compare your work to the correct answers as you go.
+At the beginning of each chapter, we will import the first revision of that chapter as a
+starting point. For example, in this chapter, we start with chapter02.00-calendar , and
+the first checkpoint will be chapter02.01-calendar . In Chapter 3 , Custom Authentication,
+we will start with chapter03.00-calendar , and the first checkpoint will be
+chapter03.01-calendar . There are additional details in the Getting started with JBCP
+calendar sample code section in the Appendix , Additional Reference Material, so be sure to refer
+to it for details.
+Updating your dependencies
+The first step is to update the project's
