@@ -8,7 +8,8 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 //        Example1.show();
 //        Example2.show();
-        Example3.show();
+//        Example3.show();
+        Example4.show();
 
         System.out.println("Finished!");
     }
