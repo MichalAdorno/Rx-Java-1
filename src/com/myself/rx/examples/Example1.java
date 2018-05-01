@@ -4,6 +4,7 @@ import com.myself.rx.ObserverRunnable;
 import io.reactivex.Observable;
 
 public class Example1 {
+
     public static void show() throws InterruptedException {
         Observable<String> source = Observable.create(x -> {
             try {
