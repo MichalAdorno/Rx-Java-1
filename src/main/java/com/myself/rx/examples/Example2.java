@@ -15,7 +15,7 @@ public class Example2 {
                 x.onNext("Czesława");
                 x.onNext("Dusia");
                 x.onNext("Ela");
-                x.onNext("Feodosja");
+                x.onNext("Fieodosja");
                 x.onNext("Gudrun");
                 x.onNext("Henryka");
                 x.onNext("Iga");

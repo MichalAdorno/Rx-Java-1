@@ -37,7 +37,7 @@ public class Example8 {
         disposable.dispose();
     }
 
-    private static void initQueue(BlockingQueue<String> bq) {
+    public static void initQueue(BlockingQueue<String> bq) {
         BufferedReader reader;
         String line = "";
         try {
