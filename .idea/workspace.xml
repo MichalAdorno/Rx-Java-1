@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee2f6375-3795-49ea-8f51-ea3be4b21df9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example10.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/970_rx1/com/myself/rx/Main.class" afterPath="$PROJECT_DIR$/out/production/970_rx1/com/myself/rx/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/970_rx1/com/myself/rx/examples/Example2.class" afterPath="$PROJECT_DIR$/out/production/970_rx1/com/myself/rx/examples/Example2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example11.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myself/rx/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example2.java" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example8.java" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example8.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example9.java" afterPath="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example9.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +18,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/rx/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="265">
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example11.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example11.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,9 +90,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example8.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example9.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example10.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example11.java" />
       </list>
     </option>
   </component>
@@ -711,12 +719,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525183927537</updated>
       <workItem from="1525183931007" duration="4665000" />
-      <workItem from="1525188628500" duration="20320000" />
+      <workItem from="1525188628500" duration="22346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24985000" />
+    <option name="totallyTimeSpent" value="27011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="344" y="1076" width="1301" height="772" extended-state="6" />
@@ -888,7 +896,7 @@
         <state relative-caret-position="330">
           <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -972,7 +980,7 @@
         <state relative-caret-position="186">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -987,20 +995,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example7.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1010,7 +1010,7 @@
         <state relative-caret-position="379">
           <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1025,10 +1025,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/rx/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="265">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myself/rx/examples/Example11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
