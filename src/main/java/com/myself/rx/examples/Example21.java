@@ -4,8 +4,6 @@ package com.myself.rx.examples;
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
 
-import java.util.concurrent.ThreadLocalRandom;
-
 import static com.myself.rx.examples.Example20.intenseCalculation;
 
 public class Example21 {
