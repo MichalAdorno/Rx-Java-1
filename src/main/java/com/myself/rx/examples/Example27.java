@@ -20,7 +20,8 @@ public class Example27 {
 
         Observable.fromIterable(codes)
 
-                .subscribeOn(Schedulers.io())
+                .subscribeOn(Schedulers.io())       //the actual placing does not matter
+
                 .flatMap(s -> Observable.fromArray(s.split("/")))
                 .doOnNext(s -> System.out.println("[1]> " + s + " on [" + Thread.currentThread().getName() + "]"))
 
@@ -33,6 +34,7 @@ public class Example27 {
                 .observeOn(Schedulers.io())
                 .map(i -> i.toString())
                 .doOnSuccess(s -> System.out.println("[1]> Writing: " + s + " on [" + Thread.currentThread().getName() + "]"))
+
                 .subscribe(s -> write(s, "/home/lxuserb/Desktop/output.txt"));
 
 
