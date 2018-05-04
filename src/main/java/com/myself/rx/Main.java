@@ -31,8 +31,8 @@ public class Main {
 //        Example21.show();
 //        Example22.show();
 //        Example23.show();
-        Example24.show();
-//        Example25.show();
+//        Example24.show();
+        Example25.show();
 
 
 
