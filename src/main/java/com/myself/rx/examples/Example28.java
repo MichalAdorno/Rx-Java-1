@@ -26,6 +26,7 @@ public class Example28 {
                 .subscribe(x -> System.out.println("[1] Ending: " + x + " - " + LocalTime.now()));
 
         Thread.sleep(20000);
+
         //----------------------------------------------------------------------------------
         //PARALLEL
 
@@ -40,6 +41,7 @@ public class Example28 {
                 .subscribe(x -> System.out.println("[2] Ending: " + x + " - " + LocalTime.now()));
 
         Thread.sleep(20000);
+
         //----------------------------------------------------------------------------------
 
 
