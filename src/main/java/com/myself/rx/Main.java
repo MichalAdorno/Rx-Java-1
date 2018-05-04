@@ -3,7 +3,6 @@ package com.myself.rx;
 
 import com.myself.rx.examples.*;
 
-import java.net.URISyntaxException;
 
 public class Main {
 
@@ -36,7 +35,12 @@ public class Main {
 //        Example26.show();
 //        Example27.show();
 //        Example28.show();
-        Example29.show();
+//        Example29.show();
+        Example30.show();
+
+
+
+
 
         System.out.println("Finished!");
     }
