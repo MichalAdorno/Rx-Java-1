@@ -24,7 +24,7 @@ public class Example20 {
         try {
             Thread.sleep(ThreadLocalRandom.current().nextInt(3000));
         } catch (InterruptedException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
         return value;
     }
