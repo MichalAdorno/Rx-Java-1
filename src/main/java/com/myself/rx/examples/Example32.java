@@ -3,9 +3,6 @@ package com.myself.rx.examples;
 
 import io.reactivex.Observable;
 import io.reactivex.schedulers.Schedulers;
-import java.time.LocalTime;
-import java.util.Arrays;
-import java.util.List;
 
 
 public class Example32 {
