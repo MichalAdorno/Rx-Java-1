@@ -41,7 +41,17 @@ public class Main {
 //        Example32.show();
 //        Example33.show();
 //        Example34.show();
-        Example35.show();
+//        Example35.show();
+        Example36.show();
+//        Example37.show();
+//        Example38.show();
+//        Example39.show();
+//        Example40.show();
+//        Example41.show();
+//        Example42.show();
+//        Example43.show();
+//        Example44.show();
+//        Example45.show();
 
 
         System.out.println("Finished!");
