@@ -1,7 +1,6 @@
 package com.myself.rx.examples;
 
 
-import com.sun.media.jfxmediaimpl.MediaDisposer;
 import io.reactivex.Flowable;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.exceptions.MissingBackpressureException;
