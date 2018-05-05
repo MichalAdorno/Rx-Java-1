@@ -36,10 +36,12 @@ public class Main {
 //        Example27.show();
 //        Example28.show();
 //        Example29.show();
-        Example30.show();
-
-
-
+//        Example30.show();
+        Example31.show();
+//        Example32.show();
+//        Example33.show();
+//        Example34.show();
+//        Example35.show();
 
 
         System.out.println("Finished!");
