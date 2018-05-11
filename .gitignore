@@ -3,9 +3,9 @@
 # Compiled class file
 *.class
 .idea/workspace.xml
-
+target
+out/production/*
 out/
-out
 .idea
 .idea/
 # Log file
